@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([".",[1],"content { text-align: center; }\n.",[1],"content .",[1],"titleBox { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; height: ",[0,80],"; line-height: ",[0,80],"; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 2%; margin-bottom: ",[0,10],"; }\n.",[1],"content .",[1],"titleBox .",[1],"topbarbox { width: 85%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; padding-left: 10%; -webkit-box-sizing: border-box; box-sizing: border-box; }\n.",[1],"content .",[1],"titleBox .",[1],"topbarbox .",[1],"fouce { font-size: 15pt; color: #9e9e9e; margin-right: ",[0,40],"; }\n.",[1],"content .",[1],"titleBox .",[1],"topbarbox .",[1],"fouce .",[1],"bot-line { width: 80%; height: ",[0,4],"; background-color: #000; margin: 0 auto; display: none; }\n.",[1],"content .",[1],"titleBox .",[1],"topbarbox .",[1],"near { font-size: 15pt; color: #9e9e9e; }\n.",[1],"content .",[1],"titleBox .",[1],"topbarbox .",[1],"near .",[1],"bot-line { width: 80%; height: ",[0,4],"; background-color: #000; margin: 0 auto; display: none; }\n.",[1],"content .",[1],"titleBox .",[1],"topbarbox .",[1],"active { color: #333333; }\n.",[1],"content .",[1],"titleBox .",[1],"topbarbox .",[1],"active .",[1],"bot-line { display: block; }\n.",[1],"content .",[1],"searchBox { position: relative; }\n.",[1],"content .",[1],"searchBox .",[1],"search { height: 26pt; border-radius: ",[0,40],"; line-height: 26pt; text-align: left; margin: ",[0,20]," ",[0,40],"; border: ",[0,2]," solid #ccc; font-size: 10pt; -webkit-box-sizing: border-box; box-sizing: border-box; padding-left: ",[0,60],"; }\n.",[1],"content .",[1],"searchBox wx-image { position: absolute; left: ",[0,52],"; top: ",[0,16],"; }\n",])();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/tabbar/live/live.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

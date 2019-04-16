@@ -1,0 +1,145 @@
+.content .usertitle {
+  width: 100%;
+  height: 440rpx;
+  background-image: url(../../static/img/userimg.8bcd3514.jpg);
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.content .usertitle .userimgbox {
+  height: 40%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.content .usertitle .userimgbox .userimg {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  border: 4rpx solid #000;
+}
+.content .usertitle .username {
+  font-size: 60rpx;
+  color: #fdf9f3;
+}
+.content .usertitle .userintro {
+  text-align: center;
+  font-size: 24rpx;
+  color: #ffcb57;
+}
+.content .usertitle .userInfoBox {
+  width: 90%;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  font-size: 36rpx;
+  color: #ffffff;
+}
+.content .usermain {
+  width: 90%;
+  position: relative;
+  top: -20rpx;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 20rpx;
+}
+.content .usermain .walletBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200rpx;
+  margin-bottom: 20rpx;
+}
+.content .usermain .walletBox .tabbox {
+  width: 50%;
+  font-size: 42rpx;
+  color: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #fe6000;
+}
+.content .usermain .walletBox .tabbox .walletimg {
+  width: 104rpx;
+  height: 100rpx;
+  margin-right: 20rpx;
+}
+.content .usermain .walletBox .tabbox .text {
+  line-height: 120rpx;
+}
+.content .usermain .shopBox {
+  font-size: 36rpx;
+  color: #333333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.content .usermain .shopBox .orderBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.content .usermain .shopBox .orderBox .orderitem {
+  width: 25%;
+  text-align: center;
+}
+.content .usermain .shopBox .orderBox .orderitem .orderimg {
+  width: 50rpx;
+  height: 50rpx;
+}
+

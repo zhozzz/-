@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"buwei","entryPagePath":"pages/tabbar/index/index.html","page":{"pages/tabbar/index/index.html":{"window":{"titleNView":false}},"pages/tabbar/live/live.html":{"window":{"titleNView":false}},"pages/tabbar/publish/publish.html":{"window":{}},"pages/tabbar/message/message.html":{"window":{"navigationBarTitleText":"消息"}},"pages/tabbar/user/user.html":{"window":{"navigationBarTitleText":"我的","titleNView":false}},"pages/publish-detial/publish-release/publish-release.html":{"window":{}},"pages/publish-detial/publish-video/publish-video.html":{"window":{}},"pages/publish-detial/publish-qa/publish-qa.html":{"window":{}},"pages/mune/mune.html":{"window":{"navigationBarBackgroundColor":"#fff","titleNView":{"titleColor":"#000"}}},"pages/category/category.html":{"window":{}}},"global":{"window":{"navigationBarBackgroundColor":"#fff","navigationBarTextStyle":"black"}},"tabBar":{"color":"rgb(51,51,51)","selectedColor":"rgb(254,96,0)","backgroundColor":"#fff","borderStyle":"black","list":[{"pagePath":"pages/tabbar/index/index.html","text":"首页"},{"pagePath":"pages/tabbar/live/live.html","text":"生活圈"},{"pagePath":"pages/tabbar/publish/publish.html","iconPath":"static/img/tabbar/add.png","selectedIconPath":"static/img/tabbar/addactive.png"},{"pagePath":"pages/tabbar/message/message.html","text":"消息"},{"pagePath":"pages/tabbar/user/user.html","text":"个人中心"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/tabbar/index/index","pages/tabbar/live/live","pages/tabbar/publish/publish","pages/tabbar/message/message","pages/tabbar/user/user","pages/publish-detial/publish-release/publish-release","pages/publish-detial/publish-video/publish-video","pages/publish-detial/publish-qa/publish-qa","pages/mune/mune","pages/category/category"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false}}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

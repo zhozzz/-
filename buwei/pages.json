@@ -1,0 +1,145 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/tabbar/index/index",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/tabbar/live/live",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/tabbar/publish/publish",
+            "style" : {}
+        },
+        {
+            "path" : "pages/tabbar/message/message",
+            "style" : {
+                "navigationBarTitleText" : "消息"
+            }
+        },
+        {
+            "path" : "pages/tabbar/user/user",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/publish-detial/publish-release/publish-release",
+            "style" : {}
+        },
+        {
+            "path" : "pages/publish-detial/publish-video/publish-video",
+            "style" : {}
+        },
+        {
+            "path" : "pages/publish-detial/publish-qa/publish-qa",
+            "style" : {}
+        },
+        {
+            "path" : "pages/mune/mune",
+            "style" : {
+                "navigationBarBackgroundColor" : "#fff",
+                "titleNView" : {
+                    "titleColor" : "#000"
+                }
+            }
+        },
+        {
+            "path" : "pages/category/category",
+            "style" : {}
+        },
+        {
+            "path" : "pages/wallet/wallet",
+            "style" : {
+                "navigationBarBackgroundColor" : "#0072fe",
+                "navigationBarTitleText" : "钱包",
+                "titleNView" : {
+                    "titleSize" : "40upx",
+                    "titleColor" : "#fff",
+                    "buttons" : [
+                        {
+                            "text" : "明细", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+                            "color" : "#fff",
+                            "fontSize" : "30upx"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "path" : "pages/advertising/advertising",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/shop/shop",
+            "style" : {
+				"app-plus" : {
+				    "titleNView" : false
+				}
+			}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarBackgroundColor" : "#fff",
+        "navigationBarTextStyle" : "black"
+    },
+    // 		"navigationBarTextStyle": "black",
+    // 		"navigationBarTitleText": "捕位",
+    // 		"navigationBarBackgroundColor": "#F8F8F8",
+    // 		"backgroundColor": "#F8F8F8"
+    "tabBar" : {
+        "borderStyle" : "black",
+        "backgroundColor" : "#fff",
+        "color" : "rgb(51,51,51)",
+        "selectedColor" : "rgb(254,96,0)",
+        "list" : [
+            {
+                "pagePath" : "pages/tabbar/index/index",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/tabbar/live/live",
+                "text" : "生活圈"
+            },
+            //#ifdef MP-WEIXIN
+            // 			{
+            // 				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+            // 				"iconPath": "static/img/tabbar/add.png",
+            // 				"selectedIconPath": "static/img/tabbar/addactive.png",
+            // 				"text": "发布"
+            // 			},
+            //#endif
+            //#ifndef MP-WEIXIN
+            {
+                "pagePath" : "pages/tabbar/publish/publish",
+                "iconPath" : "static/img/tabbar/add.png",
+                "selectedIconPath" : "static/img/tabbar/addactive.png"
+            },
+            //#endif
+            {
+                "pagePath" : "pages/tabbar/message/message",
+                "text" : "消息"
+            },
+            {
+                "pagePath" : "pages/tabbar/user/user",
+                "text" : "个人中心"
+            }
+        ]
+    }
+}

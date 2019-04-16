@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/live/live",
+    "pages/tabbar/publish/publish",
+    "pages/tabbar/message/message",
+    "pages/tabbar/user/user",
+    "pages/publish-detial/publish-release/publish-release",
+    "pages/publish-detial/publish-video/publish-video",
+    "pages/publish-detial/publish-qa/publish-qa",
+    "pages/mune/mune",
+    "pages/category/category"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "rgb(51,51,51)",
+    "selectedColor": "rgb(254,96,0)",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabbar/live/live",
+        "text": "生活圈"
+      },
+      {
+        "pagePath": "pages/tabbar/publish/publish",
+        "iconPath": "static/img/tabbar/add.png",
+        "selectedIconPath": "static/img/tabbar/addactive.png"
+      },
+      {
+        "pagePath": "pages/tabbar/message/message",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/tabbar/user/user",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "buwei"
+}
